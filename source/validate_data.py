@@ -51,5 +51,6 @@ def validate_data_lite(text: str) -> bool:
 	return True
 
 
-print(validate_data_lite(Test_text))
-print(validate_data_reliable(Test_text))
+if __name__ == '__main__':
+	print(validate_data_lite(Test_text))
+	print(validate_data_reliable(Test_text))

@@ -18,4 +18,5 @@ def elem_counting(array: list) -> list:
 	return [elem for elem in book.values()]
 
 
-print(elem_counting(list_version))
+if __name__ == '__main__':
+	print(elem_counting(list_version))
